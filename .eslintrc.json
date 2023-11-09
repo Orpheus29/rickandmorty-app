@@ -20,13 +20,7 @@
     "sourceType": "module",
     "project": "['./tsconfig.json', './tsconfig.node.json']"
   },
-  "plugins": [
-    "react",
-    "@typescript-eslint/recommended-type-checked",
-    "@typescript-eslint/stylistic-type-checked",
-    "@stylistic/js",
-    "prettier"
-  ],
+  "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
     "max-len": "off",
     "no-console": "off",
@@ -35,7 +29,6 @@
     "jsx-a11y/click-events-have-key-events": "off",
     "@typescript-eslint/no-unused-vars": "off",
     "import/no-extraneous-dependencies": "off",
-    "@stylistic/js/no-multiple-empty-lines": ["error", { "max": 1 }],
     "react/require-default-props": "off"
   }
 }
