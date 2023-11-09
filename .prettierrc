@@ -7,5 +7,6 @@
   "printWidth": 80,
   "bracketSameLine": false,
   "arrowParens": "avoid",
-  "endOfLine": "auto"
+  "endOfLine": "auto",
+  "no-semi": true
 }

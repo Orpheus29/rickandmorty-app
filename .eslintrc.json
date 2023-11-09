@@ -10,15 +10,17 @@
     "airbnb",
     "airbnb-typescript",
     "plugin:import/typescript",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
     "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module",
-    "project": "./tsconfig.json"
+    "project": "['./tsconfig.json', './tsconfig.node.json']"
   },
-  "plugins": ["react", "@typescript-eslint", "prettier"],
+  "plugins": ["react", "@typescript-eslint/recommended-type-checked", "prettier"],
   "rules": {
     "max-len": "off",
     "no-console": "off",
